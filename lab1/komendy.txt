@@ -1,0 +1,3 @@
+Uruchomienie aplikacji(musimy być w folderze bin naszego środowiska uruchomieniowego) ./java --module applicationModule/app.Application
+
+jlink --module-path C:\Users\48795\Desktop\JAVA\lab1\out\artifacts\libraryModule_jar --add-modules applicationModule,libraryModule --output C:\Users\48795\Desktop\JAVA\lab1\test
